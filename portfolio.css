@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Fauna One", serif;
+    font-size: 20px;
+}
+header{
+    background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/9/4/0/940b22eda6_50170334_code-informatique.jpg");
+    background-size: cover;
+    height: 80vh;
+    font-weight: bold;
+    padding: 5% 0 5% 5%;
+}
+.vertical-list li{
+    text-shadow: 3px 0px  #131c23;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 7.5%;
+    font-size: 412.5%;
+}
+h1 > small {
+    margin-top: 5%;
+    display: block;
+    color: white;
+}
+h1 .logo {
+    font-size: 230%;
+    font-family: "Brush Script MT", cursive;
+    width: 200px;
+    margin-left: -20px;
+}
+a {
+    color: white;
+}
+a:hover,
+a:focus {
+    color: white;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.vertical-list{
+    display: flex;
+    justify-content: space-around;
+}
