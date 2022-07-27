@@ -4,16 +4,21 @@
 }
 body {
     font-family: "Fauna One", serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 header{
     background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/9/4/0/940b22eda6_50170334_code-informatique.jpg");
     background-size: cover;
     height: 80vh;
     font-weight: bold;
-    padding: 5% 0 5% 5%;
+    padding: 2.5% 0 5% 5%;
 }
-.vertical-list li{
+
+#first p{
+    color: white;
+}
+#first li {
+    float: right;
     text-shadow: 3px 0px  #131c23;
 }
 h1 {
@@ -33,6 +38,20 @@ h1 .logo {
     width: 200px;
     margin-left: -20px;
 }
+h2 {
+    font-size: 245%;
+    margin-top: 140px;
+}
+
+h2:after {
+    display: block;
+    margin: 42px 0;
+    content: "";
+}
+
+h3 {
+    font-weight: bold;
+}
 a {
     color: white;
 }
@@ -47,4 +66,75 @@ li {
 .vertical-list{
     display: flex;
     justify-content: space-around;
+}
+.container{
+    width: 90%;
+}
+#about{
+    margin-left: 10%;
+}
+#about .info {
+    display: flex;
+    flex-direction: row;
+}
+
+#about h2 {
+    color: #0d2435;
+}
+
+#about h2::after {
+    border-bottom: 2px dashed #918d8d;
+}
+
+#about .info p {
+    line-height: 270%;
+}
+
+#about .signature {
+    font-family: "Brush Script MT", cursive;
+    font-size: 150%;
+    color: #0d2435;
+    opacity: 0.9;
+}
+.myself{
+    height: 90%;
+    margin-left: 5%;
+}
+#skill-set {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+#skill-set ul {
+    overflow: hidden;
+}
+#langage-skills {
+    background-color: #9d1098;
+}
+#net-skills {
+    background-color: #55acee;
+}
+#os-skills {
+    background-color: #e11a61;
+}
+#web-skills {
+    background-color: #114190;
+}
+.skills {
+    color: white;
+}
+
+.skills li {
+    padding: 20.4px;
+    border: 10px black;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #55acee;
+    height: 60px;
+}
+footer img{
+    height: 50px;
 }
