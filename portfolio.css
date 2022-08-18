@@ -6,6 +6,11 @@ body {
     font-family: "Fauna One", serif;
     font-size: 25px;
 }
+#top img{
+    margin: 40% 5% auto 1.8%;
+    position: fixed;
+    width: 50px;
+}
 header{
     background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/9/4/0/940b22eda6_50170334_code-informatique.jpg");
     background-size: cover;
@@ -37,7 +42,12 @@ h1 .logo {
     font-family: "Brush Script MT", cursive;
     width: 200px;
     margin-left: -20px;
+    transition: transform 330ms ease-in-out;
 }
+.logo a{
+    text-decoration: none;
+}
+
 h2 {
     font-size: 245%;
     margin-top: 140px;
@@ -63,6 +73,12 @@ a:focus {
 li {
     list-style: none;
 }
+#home .vertical-list li{
+    transition: transform 330ms ease-in-out;
+}
+#home .vertical-list li:hover{
+    transform: scale(1.5);
+}
 .vertical-list{
     display: flex;
     justify-content: space-around;
@@ -73,9 +89,13 @@ li {
 #about{
     margin-left: 10%;
 }
+
 #about .info {
     display: flex;
     flex-direction: row;
+    background: beige;
+    padding: 2%;
+
 }
 
 #about h2 {
@@ -127,6 +147,58 @@ li {
 .skills li {
     padding: 20.4px;
     border: 10px black;
+    text-align: center;
+}
+.cadre{
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 2%;
+    box-shadow: 5px 5px black;
+
+}
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: lightcoral;
+    padding: 2%;
+    margin-left: 3.5%;
+    margin-bottom: 2%;
+    width: 90%;
+}
+#portfolio img{
+    width: 600px;
+}
+#portfolio p{
+    display: none;
+    line-height: 150px;
+    background: #9d1098;
+    color: white;
+    width: 600px;
+    height: 338px;
+}
+#professionel{
+    padding: 2%;
+background: grey;
+    margin-left: 3.5%;
+    margin-bottom: 2%;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#professionel p{
+    display: none;
+    line-height: 35px;
+    background: royalblue;
+    color: white;
+    width: 600px;
+    height: 400px;
+
+}
+#professionel img{
+    width: 600px;
 }
 footer{
     display: flex;
